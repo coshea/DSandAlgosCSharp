@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Arrays\ProductOfOtherNumbers.cs" />
     <Compile Include="BinaryTree\BalancedBinaryTree.cs" />
+    <Compile Include="BinaryTree\BinarySearchTreeChecker.cs" />
     <Compile Include="BinaryTree\BinaryTreeNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
