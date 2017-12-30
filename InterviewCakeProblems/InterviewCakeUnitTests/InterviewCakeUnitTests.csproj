@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GroupOneTrading.cs" />
     <Compile Include="ProductOfOtherNumbersTests.cs" />
     <Compile Include="StockPriceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
