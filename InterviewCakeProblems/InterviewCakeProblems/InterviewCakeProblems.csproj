@@ -48,7 +48,7 @@
     <Compile Include="BinaryTree\BinarySearchTreeChecker.cs" />
     <Compile Include="BinaryTree\BinaryTreeNode.cs" />
     <Compile Include="BinaryTree\BSTLargestValue.cs" />
-    <Compile Include="HiCal.cs" />
+    <Compile Include="Arrays\HiCal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Arrays\StockPrice.cs" />
