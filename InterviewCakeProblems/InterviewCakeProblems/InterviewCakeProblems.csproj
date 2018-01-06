@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\HighestProductOf3.cs" />
     <Compile Include="Arrays\ProductOfOtherNumbers.cs" />
     <Compile Include="BinaryTree\BalancedBinaryTree.cs" />
     <Compile Include="BinaryTree\BinarySearchTreeChecker.cs" />
