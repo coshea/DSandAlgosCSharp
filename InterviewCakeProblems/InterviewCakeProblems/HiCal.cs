@@ -38,12 +38,14 @@ namespace InterviewCakeProblems
             {
                 var lastMergedMeeting = mergedMeetings.Last();
 
+                // If the current and last meetings overlap, use the latest end time
                 if (currentMeeting.StartTime <= lastMergedMeeting.EndTime)
                 {
                     lastMergedMeeting.EndTime = Math.Max(lastMergedMeeting.EndTime, currentMeeting.EndTime);
                 }
                 else
                 {
+                    // Add the current meeting since it doesn't overlap
                     mergedMeetings.Add(currentMeeting);
                 }
             }
