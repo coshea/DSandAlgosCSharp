@@ -48,8 +48,8 @@ namespace InterviewCakeProblems
         public Rectangle FindRectangularOverlap(Rectangle rect1, Rectangle rect2)
         {
             // Get the x and y overlap points and lengths
-            RangeOverlap xOverlap = FindRangeOverlap(rect1.LeftX, rect1.Width, rect2.LeftX, rect2.Width);
-            RangeOverlap yOverlap = FindRangeOverlap(rect1.BottomY, rect1.Height, rect2.BottomY, rect2.Height);
+            RangeOverLap xOverlap = FindRangeOverlap(rect1.LeftX, rect1.Width, rect2.LeftX, rect2.Width);
+            RangeOverLap yOverlap = FindRangeOverlap(rect1.BottomY, rect1.Height, rect2.BottomY, rect2.Height);
 
             // Return null rectangle if there is no overlap
             if (xOverlap.Length == 0 || yOverlap.Length == 0)
