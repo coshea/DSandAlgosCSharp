@@ -8,6 +8,13 @@ namespace InterviewCakeProblems
 {
     public class ProductOfOtherNumbers
     {
+        /// <summary>
+        /// Problem #2
+        /// You have an array of integers, and for each index you want to find the 
+        /// product of every integer except the integer at that index.
+        /// </summary>
+        /// <param name="inputArray"></param>
+        /// <returns></returns>
         public int[] GetProductsOfAllIntsExceptAtIndex(int[] inputArray)
         {
             if (inputArray.Length < 2)
