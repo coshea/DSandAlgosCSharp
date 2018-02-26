@@ -59,6 +59,7 @@
     <Compile Include="Arrays\StockPrice.cs" />
     <Compile Include="RectangleIntersection.cs" />
     <Compile Include="Search\BinarySearch.cs" />
+    <Compile Include="StacksAndQueues\QueueWithTwoStacks.cs" />
     <Compile Include="Trie\MillionGazillion.cs" />
   </ItemGroup>
   <ItemGroup>
