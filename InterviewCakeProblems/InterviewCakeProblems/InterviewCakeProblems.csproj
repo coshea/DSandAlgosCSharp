@@ -53,7 +53,7 @@
     <Compile Include="Design\CakeThief.cs" />
     <Compile Include="Design\TempTracker.cs" />
     <Compile Include="HashSets\InFlightEntertainment.cs" />
-    <Compile Include="Linked Lists\LinkListProblems.cs" />
+    <Compile Include="Linked Lists\LinkedListProblems.cs" />
     <Compile Include="Linked Lists\LinkedListNode.cs" />
     <Compile Include="OverlappingSubproblems\Fibonacci.cs" />
     <Compile Include="Program.cs" />

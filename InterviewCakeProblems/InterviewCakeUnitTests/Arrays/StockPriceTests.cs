@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using InterviewCakeProblems;
 
-namespace InterviewCakeUnitTests
+namespace InterviewCakeUnitTests.Arrays
 {
     [TestClass]
     public class StockPriceTests

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterviewCakeProblems.Linked_Lists
 {
-    public class LinkListProblems
+    public class LinkedListProblems
     {
         /// <summary>
         /// Problem #22
@@ -93,5 +93,52 @@ namespace InterviewCakeProblems.Linked_Lists
 
             return previousNode;
         }
+
+        /// <summary>
+        /// Problem #25
+        /// Write a method KthToLastNode() that takes an integer kk and the 
+        /// headNode of a singly-linked list, and returns the kkth to last node in the list.
+        /// </summary>
+        /// <param name="k"></param>
+        /// <param name="headOfList"></param>
+        /// <returns></returns>
+        public LinkedListNode FindKthToLastNode(int k, LinkedListNode headOfList)
+        {
+
+            var leftNode = headOfList;
+            var rightNode = headOfList;
+
+            // Move rightNode to the kth node
+            for (int i = 0; i < k - 1; i++)
+            {
+                // But along the way, if a rightNode doesn't have a next,
+                // then k is greater than the length of the list and there
+                // can't be a kth-to-last node! we'll raise an error
+                if (rightNode.Next == null)
+                {
+                    throw new ArgumentOutOfRangeException(nameof(k),
+                        $"k is larger than the length of the linked list: {k}");
+                }
+
+                rightNode = rightNode.Next;
+            }
+
+            // Starting with leftNode on the head,
+            // move leftNode and rightNode down the list,
+            // maintaining a distance of k between them,
+            // until rightNode hits the end of the list
+            while (rightNode.Next != null)
+            {
+                rightNode = rightNode.Next;
+                leftNode = leftNode.Next;
+            }
+
+            // Since leftNode is k nodes behind rightNode,
+            // leftNode is now the kth to last node!
+            return leftNode;
+
+        }
+
+
     }
 }

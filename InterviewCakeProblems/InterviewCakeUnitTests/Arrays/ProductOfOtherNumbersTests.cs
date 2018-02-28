@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterviewCakeProblems.Tests
+namespace InterviewCakeProblems.Arrays
 {
     [TestClass()]
     public class ProductOfOtherNumbersTests
