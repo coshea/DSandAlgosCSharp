@@ -61,5 +61,37 @@ namespace InterviewCakeProblems.Linked_Lists
             // Case: fastRunner hit the end of the list
             return false;
         }
+
+        /// <summary>
+        /// Problem #24
+        /// Write a method for reversing a linked list. Do it in-place.
+        /// Your method will have one input: the head of the list.
+        /// Your method should return the new head of the list.
+        /// </summary>
+        /// <param name="headOfList"></param>
+        /// <returns></returns>
+        public LinkedListNode ReverseLinkedList(LinkedListNode headOfList)
+        {
+            LinkedListNode previousNode = null;
+            LinkedListNode currentNode = headOfList;
+            LinkedListNode nextNode = null;
+
+            // Until we have 'fallen off' the end of the list
+            while (currentNode != null)
+            {
+                // Copy a pointer to the next element
+                // before we overwrite currentNode.Next
+                nextNode = currentNode.Next;
+
+                 // Reverse the 'Next' pointer
+                currentNode.Next = previousNode;
+
+                // Step forward in the list
+                previousNode = currentNode;
+                currentNode = nextNode;
+            }
+
+            return previousNode;
+        }
     }
 }
