@@ -44,5 +44,53 @@ namespace InterviewCakeProblems.Strings
 
             throw new ArgumentException("No closing parenthesis :(", nameof(sentence));
         }
+
+        /// <summary>
+        /// Problem #29
+        /// Write an efficient method that tells us whether or
+        /// not an input string's openers and closers are properly nested.
+        /// </summary>
+        /// <param name="code"></param>
+        /// <returns></returns>
+        public bool IsBalancedCode(string code)
+        {
+            var openersToClosers = new Dictionary<char, char>
+            {
+                { '(', ')' },
+                { '[', ']' },
+                { '{', '}' }
+            };
+            
+            HashSet<char> closers = new HashSet<char>(openersToClosers.Values);
+
+            var openersStack = new Stack<char>();
+
+            foreach (var c in code)
+            {
+                if (openersToClosers.ContainsKey(c))
+                {
+                    openersStack.Push(c);
+                }
+                else if (closers.Contains(c))
+                {
+                    if (openersStack.Count == 0)
+                    {
+                        return false;
+                    }
+
+                    var lastOpenner = openersStack.Pop();
+
+                    // If this closer doesn't correspond to the most recently
+                    // seen unclosed opener, short-circuit, returning false
+                    if (openersToClosers[lastOpenner] != c)
+                    {
+                        return false;
+                    }
+
+                }
+            }
+
+            return openersStack.Count == 0;
+        }
     }
 }
