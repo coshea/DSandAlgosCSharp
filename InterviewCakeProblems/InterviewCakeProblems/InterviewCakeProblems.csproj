@@ -64,6 +64,7 @@
     <Compile Include="StacksAndQueues\MaxStack.cs" />
     <Compile Include="StacksAndQueues\QueueWithTwoStacks.cs" />
     <Compile Include="Strings\ReverseAString.cs" />
+    <Compile Include="Strings\ReverseWords.cs" />
     <Compile Include="Trie\MillionGazillion.cs" />
   </ItemGroup>
   <ItemGroup>

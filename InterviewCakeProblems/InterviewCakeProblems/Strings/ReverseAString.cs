@@ -35,5 +35,30 @@ namespace InterviewCakeProblems.Strings
 
             return new string(strChars);
         }
+
+        /// <summary>
+        /// Implementing with a stack for fun
+        /// </summary>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        public string ReverseWithStack(string message)
+        {
+            StringBuilder newMessage = new StringBuilder();
+
+            var messageArray = message.ToCharArray();
+            Stack<char> stack = new Stack<char>();
+
+            foreach (var letter in messageArray)
+            {
+                stack.Push(letter);
+            }
+
+            while (stack.Count > 0)
+            {
+                newMessage.Append(stack.Pop());
+            }
+
+            return newMessage.ToString();
+        }
     }
 }
