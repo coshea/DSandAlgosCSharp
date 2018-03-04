@@ -58,6 +58,7 @@
     <Compile Include="Strings\ReverseAStringTests.cs" />
     <Compile Include="Strings\ReverseWordsTests.cs" />
     <Compile Include="Strings\MatchingParenthesesTests.cs" />
+    <Compile Include="Strings\PalindromeTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
