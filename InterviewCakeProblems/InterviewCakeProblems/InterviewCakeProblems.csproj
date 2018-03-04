@@ -65,6 +65,7 @@
     <Compile Include="StacksAndQueues\QueueWithTwoStacks.cs" />
     <Compile Include="Strings\MatchingParentheses.cs" />
     <Compile Include="Strings\Palindrome.cs" />
+    <Compile Include="Strings\Permutations.cs" />
     <Compile Include="Strings\ReverseAString.cs" />
     <Compile Include="Strings\ReverseWords.cs" />
     <Compile Include="Trie\MillionGazillion.cs" />
