@@ -45,6 +45,7 @@
     <Compile Include="Arrays\CoinDenominations.cs" />
     <Compile Include="Arrays\HighestProductOf3.cs" />
     <Compile Include="Arrays\ProductOfOtherNumbers.cs" />
+    <Compile Include="Arrays\Sorting.cs" />
     <Compile Include="BinaryTree\BalancedBinaryTree.cs" />
     <Compile Include="BinaryTree\BinarySearchTreeChecker.cs" />
     <Compile Include="BinaryTree\BinaryTreeNode.cs" />
