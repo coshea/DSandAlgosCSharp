@@ -56,6 +56,8 @@
     <Compile Include="Design\DuplicateFiles.cs" />
     <Compile Include="Design\TempTracker.cs" />
     <Compile Include="Design\UrlShortner.cs" />
+    <Compile Include="Graphs\ColorGraph.cs" />
+    <Compile Include="Graphs\GraphNode.cs" />
     <Compile Include="HashSets\InFlightEntertainment.cs" />
     <Compile Include="Linked Lists\LinkedListProblems.cs" />
     <Compile Include="Linked Lists\LinkedListNode.cs" />
