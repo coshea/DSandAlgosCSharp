@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterviewCakeProblems.Arrays
+namespace InterviewCakeUnitTests.Arrays
 {
     [TestClass()]
     public class ProductOfOtherNumbersTests
@@ -24,7 +24,7 @@ namespace InterviewCakeProblems.Arrays
             {
                 Assert.AreEqual(expectedArray[i], result[i]);
             }
-            
+
         }
     }
 }

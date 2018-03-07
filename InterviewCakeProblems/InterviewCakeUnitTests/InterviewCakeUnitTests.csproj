@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Arrays\HighestProductOf3Tests.cs" />
     <Compile Include="Arrays\HiCalTests.cs" />
+    <Compile Include="Arrays\MergeSortedArraysTests.cs" />
     <Compile Include="Arrays\ProductOfOtherNumbersTests.cs" />
     <Compile Include="Arrays\StockPriceTests.cs" />
     <Compile Include="Design\CakeThiefTests.cs" />
