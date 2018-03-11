@@ -52,12 +52,15 @@
     <Compile Include="BinaryTree\BinaryTreeNode.cs" />
     <Compile Include="BinaryTree\BSTLargestValue.cs" />
     <Compile Include="Arrays\HiCal.cs" />
+    <Compile Include="BinaryTree\ConnectNodes.cs" />
     <Compile Include="Design\CakeThief.cs" />
     <Compile Include="Design\DuplicateFiles.cs" />
+    <Compile Include="Design\LRUCache.cs" />
     <Compile Include="Design\TempTracker.cs" />
     <Compile Include="Design\UrlShortner.cs" />
     <Compile Include="Graphs\ColorGraph.cs" />
     <Compile Include="Graphs\GraphNode.cs" />
+    <Compile Include="Graphs\MeshMessage.cs" />
     <Compile Include="HashSets\InFlightEntertainment.cs" />
     <Compile Include="Linked Lists\LinkedListProblems.cs" />
     <Compile Include="Linked Lists\LinkedListNode.cs" />
