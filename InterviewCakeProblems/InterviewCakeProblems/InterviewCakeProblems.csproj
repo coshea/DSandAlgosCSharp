@@ -56,6 +56,7 @@
     <Compile Include="Design\CakeThief.cs" />
     <Compile Include="Design\DuplicateFiles.cs" />
     <Compile Include="Design\LRUCache.cs" />
+    <Compile Include="Design\LRUCacheBuiltIn.cs" />
     <Compile Include="Design\TempTracker.cs" />
     <Compile Include="Design\UrlShortner.cs" />
     <Compile Include="Graphs\ColorGraph.cs" />
