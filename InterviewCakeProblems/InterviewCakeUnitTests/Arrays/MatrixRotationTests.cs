@@ -26,7 +26,7 @@ namespace InterviewCakeProblems.Arrays
                 { 13,11,7,8 },
                 { 14,15,16,12 }};
 
-            var result = MatrixRotation.RotateClockwise(4, 4, testArray);
+            var result = MatrixRotation.RotateClockwise(testArray);
 
             for (int i = 0; i < 4; i++)
             {
@@ -55,7 +55,7 @@ namespace InterviewCakeProblems.Arrays
                 { 5,6,10,16 },
                 { 9,13,14,15 }};
 
-            var result = MatrixRotation.RotateCounterClockwise(4, 4, testArray);
+            var result = MatrixRotation.RotateCounterClockwise(testArray);
 
             for (int i = 0; i < 4; i++)
             {

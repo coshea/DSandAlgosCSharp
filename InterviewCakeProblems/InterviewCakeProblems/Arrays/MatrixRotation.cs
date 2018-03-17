@@ -8,13 +8,13 @@ namespace InterviewCakeProblems.Arrays
 {
     public static class MatrixRotation
     {
-        public static int[,] RotateClockwise(int rows, int cols, int[,] matrix)
+        public static int[,] RotateClockwise(int[,] matrix)
         {
             int[,] rotatedMatrix = matrix;
             int rowIndex = 0;
             int colIndex = 0;
-            int rowEnd = rows;
-            int colEnd = cols;
+            int rowEnd = matrix.GetLength(0);
+            int colEnd = matrix.GetLength(1);
             int prev = 0;
             int curr = 0;
 
@@ -75,13 +75,13 @@ namespace InterviewCakeProblems.Arrays
             return rotatedMatrix;
         }
 
-        public static int[,] RotateCounterClockwise(int rows, int cols, int[,] matrix)
+        public static int[,] RotateCounterClockwise(int[,] matrix)
         {
             int[,] rotatedMatrix = matrix;
             int rowIndex = 0;
             int colIndex = 0;
-            int rowEnd = rows;
-            int colEnd = cols;
+            int rowEnd = matrix.GetLength(0);
+            int colEnd = matrix.GetLength(1);
             int prev = 0;
             int curr = 0;
 
