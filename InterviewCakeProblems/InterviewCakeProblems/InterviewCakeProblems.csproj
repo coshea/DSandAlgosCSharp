@@ -73,6 +73,8 @@
     <Compile Include="RectangleIntersection.cs" />
     <Compile Include="Search\BinarySearch.cs" />
     <Compile Include="StacksAndQueues\MaxStack.cs" />
+    <Compile Include="StacksAndQueues\MinStack.cs" />
+    <Compile Include="StacksAndQueues\MinStackNoExtraStack.cs" />
     <Compile Include="StacksAndQueues\QueueWithTwoStacks.cs" />
     <Compile Include="Strings\MatchingParentheses.cs" />
     <Compile Include="Strings\Palindrome.cs" />

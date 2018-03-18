@@ -58,6 +58,7 @@
     <Compile Include="Design\LRUCacheTests.cs" />
     <Compile Include="Linked Lists\LinkedListProblemsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StacksAndQueues\MinStackTests.cs" />
     <Compile Include="Strings\ReverseAStringTests.cs" />
     <Compile Include="Strings\ReverseWordsTests.cs" />
     <Compile Include="Strings\MatchingParenthesesTests.cs" />
