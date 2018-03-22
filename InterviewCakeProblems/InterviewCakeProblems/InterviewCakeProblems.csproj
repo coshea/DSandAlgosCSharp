@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Arrays\CoinDenominations.cs" />
     <Compile Include="Arrays\HighestProductOf3.cs" />
+    <Compile Include="Arrays\KthElement.cs" />
     <Compile Include="Arrays\MatrixRotation.cs" />
     <Compile Include="Arrays\MergeSortedArrays.cs" />
     <Compile Include="Arrays\ProductOfOtherNumbers.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Strings\Permutations.cs" />
     <Compile Include="Strings\ReverseAString.cs" />
     <Compile Include="Strings\ReverseWords.cs" />
+    <Compile Include="Strings\SlidingWindowProblems.cs" />
     <Compile Include="Trie\MillionGazillion.cs" />
   </ItemGroup>
   <ItemGroup>

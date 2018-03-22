@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Arrays\HighestProductOf3Tests.cs" />
     <Compile Include="Arrays\HiCalTests.cs" />
+    <Compile Include="Arrays\KthElementTests.cs" />
     <Compile Include="Arrays\MatrixRotationTests.cs" />
     <Compile Include="Arrays\MergeSortedArraysTests.cs" />
     <Compile Include="Arrays\ProductOfOtherNumbersTests.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="Strings\ReverseWordsTests.cs" />
     <Compile Include="Strings\MatchingParenthesesTests.cs" />
     <Compile Include="Strings\PalindromeTests.cs" />
+    <Compile Include="Strings\SlidingWindowProblemsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
