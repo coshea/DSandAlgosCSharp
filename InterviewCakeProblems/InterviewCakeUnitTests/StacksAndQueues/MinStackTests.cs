@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterviewCakeProblems.StacksAndQueues
+namespace InterviewCakeUnitTests.StacksAndQueues
 {
     [TestClass()]
     public class MinStackTests
