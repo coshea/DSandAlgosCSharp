@@ -68,6 +68,7 @@
     <Compile Include="Linked Lists\LinkedListProblems.cs" />
     <Compile Include="Linked Lists\LinkedListNode.cs" />
     <Compile Include="OverlappingSubproblems\Fibonacci.cs" />
+    <Compile Include="OverlappingSubproblems\UniquePaths.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Arrays\StockPrice.cs" />
