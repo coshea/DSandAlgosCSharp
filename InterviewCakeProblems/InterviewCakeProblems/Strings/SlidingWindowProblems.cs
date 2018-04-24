@@ -46,8 +46,6 @@ namespace InterviewCakeProblems.Strings
             }
 
             return len;
-
         }
-
     }
 }
