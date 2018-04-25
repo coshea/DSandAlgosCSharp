@@ -8,6 +8,13 @@ namespace LeetCodeProblems.Arrays
 {
     public class SubArraySum
     {
+        /// <summary>
+        /// Leetcode 
+        /// Solution doesn't work
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <param name="k"></param>
+        /// <returns></returns>
         public int SubarraySum(int[] nums, int k)
         {
             int result = 0;
