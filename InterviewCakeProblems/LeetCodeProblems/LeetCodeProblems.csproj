@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\BackTrackingProblems.cs" />
+    <Compile Include="HashSets\TopKMostFrequentElements.cs" />
     <Compile Include="Arrays\SubArraySum.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

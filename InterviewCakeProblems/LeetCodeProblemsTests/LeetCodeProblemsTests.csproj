@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Arrays\BackTrackingProblemsTests.cs" />
     <Compile Include="Arrays\SubArraySumTests.cs" />
+    <Compile Include="HashSets\TopKMostFrequentElementsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
