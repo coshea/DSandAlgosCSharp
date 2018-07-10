@@ -41,6 +41,7 @@
     <Compile Include="Arrays\BackTrackingProblems.cs" />
     <Compile Include="HashSets\TopKMostFrequentElements.cs" />
     <Compile Include="Arrays\SubArraySum.cs" />
+    <Compile Include="Strings\FirstUniqueCharacter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
