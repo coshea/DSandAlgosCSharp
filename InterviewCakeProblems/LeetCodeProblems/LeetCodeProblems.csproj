@@ -42,7 +42,9 @@
     <Compile Include="HashSets\TopKMostFrequentElements.cs" />
     <Compile Include="Arrays\SubArraySum.cs" />
     <Compile Include="Strings\FirstUniqueCharacter.cs" />
+    <Compile Include="Trie\MapSum.cs" />
     <Compile Include="Trie\TrieImplementation.cs" />
+    <Compile Include="Trie\TrieNode.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

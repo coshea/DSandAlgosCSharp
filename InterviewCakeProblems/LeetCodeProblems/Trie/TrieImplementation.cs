@@ -6,18 +6,6 @@ using System.Threading.Tasks;
 
 namespace LeetCodeProblems.Trie
 {
-    public class TrieNode
-    {
-        public bool HasValue;
-        public Dictionary<char, TrieNode> Children;
-
-        public TrieNode()
-        {
-            Children = new Dictionary<char, TrieNode>();
-            HasValue = false;
-        }
-    }
-
     /// <summary>
     /// Leetcode #208. Implement Trie (Prefix Tree)
     /// Implement a trie with insert, search, and startsWith methods.

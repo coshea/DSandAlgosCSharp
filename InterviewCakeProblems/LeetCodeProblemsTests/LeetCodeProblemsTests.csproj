@@ -52,6 +52,7 @@
     <Compile Include="Arrays\SubArraySumTests.cs" />
     <Compile Include="HashSets\TopKMostFrequentElementsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Trie\MapSumTests.cs" />
     <Compile Include="Trie\TrieImplementationTests.cs" />
   </ItemGroup>
   <ItemGroup>
