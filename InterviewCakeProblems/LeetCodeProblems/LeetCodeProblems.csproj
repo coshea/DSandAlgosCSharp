@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\BackTrackingProblems.cs" />
+    <Compile Include="Arrays\TwoSum.cs" />
     <Compile Include="HashSets\TopKMostFrequentElements.cs" />
     <Compile Include="Arrays\SubArraySum.cs" />
     <Compile Include="Linked List\MiddleNode.cs" />
