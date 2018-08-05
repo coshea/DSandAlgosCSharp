@@ -39,14 +39,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\BackTrackingProblems.cs" />
+    <Compile Include="Arrays\DuplicateNumber.cs" />
+    <Compile Include="Arrays\IntegerToEnglishWords.cs" />
     <Compile Include="Arrays\TwoSum.cs" />
     <Compile Include="HashSets\TopKMostFrequentElements.cs" />
     <Compile Include="Arrays\SubArraySum.cs" />
+    <Compile Include="Linked List\AddTwoNumbers.cs" />
+    <Compile Include="Linked List\IntersectionOfTwoLinkedLists.cs" />
+    <Compile Include="Linked List\ListNode.cs" />
+    <Compile Include="Linked List\MergeSortedLists.cs" />
     <Compile Include="Linked List\MiddleNode.cs" />
+    <Compile Include="Sorting\KLargestElement.cs" />
+    <Compile Include="Sorting\MeetingRooms.cs" />
     <Compile Include="Strings\FirstUniqueCharacter.cs" />
+    <Compile Include="Trees\NumberOfIslands.cs" />
+    <Compile Include="Trees\TreeNode.cs" />
+    <Compile Include="Trees\ValidBinarySearchTree.cs" />
     <Compile Include="Trie\MapSum.cs" />
     <Compile Include="Trie\TrieImplementation.cs" />
     <Compile Include="Trie\TrieNode.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

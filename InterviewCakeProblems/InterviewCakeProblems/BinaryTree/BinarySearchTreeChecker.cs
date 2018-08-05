@@ -54,6 +54,11 @@ namespace InterviewCakeProblems.BinaryTree
 
         public bool IsBinarySearchTreeRecursive(BinaryTreeNode root)
         {
+            if (root == null)
+                return false;
+            if (root.Left == null && root.Right == null)
+                return true;
+
             return IsBinarySearchTreeRecursive(root, int.MinValue, int.MaxValue);
         }
 

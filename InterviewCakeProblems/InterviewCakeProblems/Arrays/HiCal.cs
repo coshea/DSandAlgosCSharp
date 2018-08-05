@@ -9,7 +9,8 @@ namespace InterviewCakeProblems
     /// <summary>
     /// Question #4 - Your company built an in-house calendar tool called HiCal. 
     /// You want to add a feature to see the times in a day when everyone is available.
-    /// Write a method MergeRanges() that takes a list of meeting time ranges and returns a list of condensed ranges.
+    /// Write a method MergeRanges() that takes a list of meeting time ranges 
+    /// and returns a list of condensed ranges.
     /// </summary>
     public class Meeting
     {
