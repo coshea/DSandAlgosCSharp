@@ -63,6 +63,7 @@
     <Compile Include="Sorting\MeetingRooms.cs" />
     <Compile Include="Strings\FirstUniqueCharacter.cs" />
     <Compile Include="Strings\ReverseWordsInAString.cs" />
+    <Compile Include="Trees\ClosestTreeValue.cs" />
     <Compile Include="Trees\NumberOfIslands.cs" />
     <Compile Include="Trees\TreeNode.cs" />
     <Compile Include="Trees\ValidBinarySearchTree.cs" />
