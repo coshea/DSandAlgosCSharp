@@ -51,6 +51,7 @@
     <Compile Include="Arrays\BackTrackingProblems.cs" />
     <Compile Include="Arrays\DuplicateNumber.cs" />
     <Compile Include="Arrays\IntegerToEnglishWords.cs" />
+    <Compile Include="Arrays\MaxSubArray.cs" />
     <Compile Include="Arrays\TwoSum.cs" />
     <Compile Include="HashSets\TopKMostFrequentElements.cs" />
     <Compile Include="Arrays\SubArraySum.cs" />
