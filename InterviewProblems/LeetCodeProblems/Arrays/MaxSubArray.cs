@@ -21,6 +21,10 @@ namespace LeetCodeProblems.Arrays
             Dictionary<int, int> dict = new Dictionary<int, int>();
 
             int sum = 0;
+            // Store the sums along the way.
+            // Check if current sum - k is present. 
+            // Meaning i was location that caused sum == k,
+            // so find starting point from index stored at sum - k
             for (int i = 0; i < nums.Length; i++)
             {
                 // accumulate sum
@@ -38,7 +42,7 @@ namespace LeetCodeProblems.Arrays
                     dict.Add(sum, i);
                 }
 
-                // update max if 'sum-k' is present in dict. meaning 
+                // update max if 'sum-k' is present in dict. 
                 if (dict.ContainsKey(sum - k))
                 {
                     maxLength = Math.Max(maxLength, i - dict[sum - k]);
