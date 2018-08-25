@@ -55,6 +55,7 @@
     <Compile Include="Linked List\AddTwoNumbersTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings\ReverseWordsInAStringTests.cs" />
+    <Compile Include="Trees\BinaryTreeLevelOrderTraversalTests.cs" />
     <Compile Include="Trie\MapSumTests.cs" />
     <Compile Include="Trie\TrieImplementationTests.cs" />
   </ItemGroup>

@@ -60,6 +60,8 @@
     <Compile Include="Linked List\ListNode.cs" />
     <Compile Include="Linked List\MergeSortedLists.cs" />
     <Compile Include="Linked List\MiddleNode.cs" />
+    <Compile Include="Trees\BinaryTreeLevelOrderTraversal.cs" />
+    <Compile Include="Trees\SymmetricTree.cs" />
     <Compile Include="Sorting\KLargestElement.cs" />
     <Compile Include="Sorting\MeetingRooms.cs" />
     <Compile Include="Strings\FirstUniqueCharacter.cs" />
