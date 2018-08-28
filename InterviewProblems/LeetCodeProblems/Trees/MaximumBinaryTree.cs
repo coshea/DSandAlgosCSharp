@@ -19,37 +19,33 @@ namespace LeetCodeProblems.Trees
     {
         public TreeNode ConstructMaximumBinaryTree(int[] nums)
         {
-            int maxNumIndex = FindMaxNumIndex(nums);
-            TreeNode root = new TreeNode(nums[maxNumIndex]);
-
-            List<int> left = nums.Take(maxNumIndex - 1).ToList();
-            List<int> right = nums.Skip(maxNumIndex + 1).ToList();
-
-
-            if (left.Count > 0)
-            {
-                left.Sort();
-                root.left = new TreeNode(left[0]);
-                ConstructTree(root.left, left, 1);
-            }
-
-            if (right.Count > 0)
-            {
-                right.Sort();
-                ConstructTree(root.right, right, 1);
-                root.right = new TreeNode(right[0]);
-            }
-
-            return root;
+            return ConstructTree(nums, 0, nums.Length);
 
         }
 
-        private int FindMaxNumIndex(int[] nums)
+        private TreeNode ConstructTree(int[] nums, int left, int right)
         {
-            int maxNum = nums[0];
-            int maxNumIndex = 0;
+            if (left == right)
+            {
+                return null;
+            }
 
-            for (int i = 1; i < nums.Length; i++)
+            int maxNumIndex = FindMaxNumIndex(nums, left, right);
+
+            TreeNode root = new TreeNode(nums[maxNumIndex]);
+
+            root.left = ConstructTree(nums, left, maxNumIndex);
+            root.right = ConstructTree(nums, maxNumIndex + 1, right);
+
+            return root;
+        }
+
+        private int FindMaxNumIndex(int[] nums, int left, int right)
+        {
+            int maxNum = nums[left];
+            int maxNumIndex = left;
+
+            for (int i = left; i < right; i++)
             {
                 if (nums[i] > maxNum)
                 {
@@ -62,16 +58,6 @@ namespace LeetCodeProblems.Trees
         }
 
 
-        private void ConstructTree(TreeNode root, List<int> left, int index)
-        {
-            if (left.Count <= index)
-            {
-                return;
-            }
 
-
-
-            //index++
-        }
     }
 }
