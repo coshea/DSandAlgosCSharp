@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\BackTrackingProblems.cs" />
+    <Compile Include="Arrays\BuySellStock.cs" />
     <Compile Include="Arrays\DuplicateNumber.cs" />
     <Compile Include="Arrays\IntegerToEnglishWords.cs" />
     <Compile Include="Arrays\MaxSubArray.cs" />
