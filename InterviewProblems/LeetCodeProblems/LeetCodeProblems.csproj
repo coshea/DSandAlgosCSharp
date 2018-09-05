@@ -64,6 +64,7 @@
     <Compile Include="Strings\CompareVersionNumbers.cs" />
     <Compile Include="Trees\BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="Trees\InorderSuccessorInBST.cs" />
+    <Compile Include="Trees\InvertBinaryTree.cs" />
     <Compile Include="Trees\MaximumBinaryTree.cs" />
     <Compile Include="Trees\SumRootToLeaf.cs" />
     <Compile Include="Trees\SymmetricTree.cs" />
