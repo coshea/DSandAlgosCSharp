@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\BackTrackingProblemsTests.cs" />
+    <Compile Include="Arrays\IntegerToEnglishWordsTests.cs" />
     <Compile Include="Arrays\SubArraySumTests.cs" />
     <Compile Include="Arrays\TwoSumTests.cs" />
     <Compile Include="HashSets\TopKMostFrequentElementsTests.cs" />
