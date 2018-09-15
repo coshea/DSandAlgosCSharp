@@ -54,6 +54,7 @@
     <Compile Include="Arrays\IntegerToEnglishWords.cs" />
     <Compile Include="Arrays\MaxSubArray.cs" />
     <Compile Include="Arrays\TwoSum.cs" />
+    <Compile Include="Dynamic Programming\HighwayBillboards.cs" />
     <Compile Include="HashSets\TopKMostFrequentElements.cs" />
     <Compile Include="Arrays\SubArraySum.cs" />
     <Compile Include="Linked List\AddTwoNumbers.cs" />
