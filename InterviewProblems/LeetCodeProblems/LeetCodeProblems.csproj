@@ -53,6 +53,7 @@
     <Compile Include="Arrays\DuplicateNumber.cs" />
     <Compile Include="Arrays\IntegerToEnglishWords.cs" />
     <Compile Include="Arrays\MaxSubArray.cs" />
+    <Compile Include="Arrays\MoveZeroes.cs" />
     <Compile Include="Arrays\TwoSum.cs" />
     <Compile Include="Dynamic Programming\HighwayBillboards.cs" />
     <Compile Include="HashSets\TopKMostFrequentElements.cs" />
