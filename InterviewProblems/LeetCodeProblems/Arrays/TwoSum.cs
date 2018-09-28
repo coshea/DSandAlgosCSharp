@@ -26,5 +26,33 @@ namespace LeetCodeProblems.Arrays
 
             return null;
         }
+
+        public int[] GetTwoSum_Pointers(int[] nums, int target)
+        {
+            Array.Sort(nums);
+
+            int l = 0;
+            int r = nums.Length - 1;
+
+            while (l < r)
+            {
+                int sum = nums[l] + nums[r];
+                if (sum == target)
+                {
+                    return new int[] { l, r };
+                }
+
+                if (sum > target)
+                {
+                    r--;
+                }
+                else
+                {
+                    l++;
+                }
+            }
+
+            return null;
+        }
     }
 }
