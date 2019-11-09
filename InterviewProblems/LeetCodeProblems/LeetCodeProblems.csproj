@@ -66,6 +66,7 @@
     <Compile Include="Linked List\MergeSortedLists.cs" />
     <Compile Include="Linked List\MiddleNode.cs" />
     <Compile Include="Strings\CompareVersionNumbers.cs" />
+    <Compile Include="Strings\ValidPalindrome.cs" />
     <Compile Include="Trees\BinaryTreeLevelOrderTraversal.cs" />
     <Compile Include="Trees\InorderSuccessorInBST.cs" />
     <Compile Include="Trees\InvertBinaryTree.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Trees\ClosestTreeValue.cs" />
     <Compile Include="Trees\NumberOfIslands.cs" />
     <Compile Include="Trees\TreeNode.cs" />
+    <Compile Include="Trees\TreeToDoublyLinkedList.cs" />
     <Compile Include="Trees\ValidBinarySearchTree.cs" />
     <Compile Include="Trie\MapSum.cs" />
     <Compile Include="Trie\TrieImplementation.cs" />

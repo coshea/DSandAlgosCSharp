@@ -12,5 +12,12 @@ namespace LeetCodeProblems.Trees
         public TreeNode left;
         public TreeNode right;
         public TreeNode(int x) { val = x; }
+
+        public TreeNode(int _val, TreeNode _left, TreeNode _right)
+        {
+            val = _val;
+            left = _left;
+            right = _right;
+        }
     }
 }
