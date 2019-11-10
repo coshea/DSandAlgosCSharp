@@ -65,6 +65,7 @@
     <Compile Include="Linked List\ListNode.cs" />
     <Compile Include="Linked List\MergeSortedLists.cs" />
     <Compile Include="Linked List\MiddleNode.cs" />
+    <Compile Include="StacksAndQueues\ValidParentheses.cs" />
     <Compile Include="Strings\CompareVersionNumbers.cs" />
     <Compile Include="Strings\ValidPalindrome.cs" />
     <Compile Include="Trees\BinaryTreeLevelOrderTraversal.cs" />
